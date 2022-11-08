@@ -1,0 +1,62 @@
+.header {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+
+	width: 100%;
+}
+
+.banner {
+	display: flex;
+	width: 95%;
+	padding-top: 25px;
+	justify-content: space-between;
+}
+
+.banner div:nth-child(1) {
+	font-size: 16rem;
+	line-height: 22px;
+	text-align: left;
+
+	color: #7E7E7E;
+}
+.banner div:nth-child(2) {
+	transform: translate(0, -5px);
+}
+
+.banner .greet {
+	display: inline;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16rem;
+	line-height: 22px;
+
+	color: black;
+}
+.banner .greet img {
+	transform: translate(0, 5px);
+	padding-right: 10px;
+	padding-left: 5px;
+}
+.banner .logout {
+	display: inline;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16rem;
+	line-height: 22px;
+}
+.banner .logout:hover {
+	font-weight: 600;
+}
+
+.logo {
+	width: 190px;
+	height: 104.16px;
+	padding-bottom: 30px;
+
+}
